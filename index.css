@@ -1,0 +1,212 @@
+body{
+    font-family: 'kanit', sans-serif;
+    margin: 0;
+}
+.contianer{
+    width: 100%;
+    height: 150vh;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 0.9fr repeat(4,1fr);
+    grid-template-rows:  repeat(5,1fr);
+}
+.header{
+    grid-column: 2 / 6;
+    display: grid;
+    grid-template-rows:  40% 1fr;
+    grid-template-columns: 100%;
+
+
+}
+.header .up{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.up .search{
+    width: 70%;
+    margin-left: 7%;
+    float: left;
+
+}
+.search svg{
+         color: black;
+}
+.search input{
+    font-weight: bold;
+    padding: 5px;
+   width: 70%;
+   margin-left: 15px;
+   border-radius: 20px;
+    border: none;
+    outline: none;
+   background-color: gainsboro;
+}
+
+.up .text{
+    display: flex;
+    align-items: center;
+    float: right;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    gap: 30px;
+}
+.text img{
+    width: 50px;
+    height: 50px;
+}
+.header .down{
+    background-color: white;
+}
+.down .user{
+    font-size: 25px;
+    float: left;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    text-align: start;
+    gap: 10px;
+
+}
+.user img{
+    position: relative;
+    margin-left: 5%;
+    top: 16px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+.user h3{
+    position: relative;
+    top: 25px;
+}
+.user p{
+    font-size: 15px;
+    font-weight: bolder;
+    position: relative;
+    top: 20%;
+    right: 63%;
+    
+}
+.down .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    
+    gap: 20px;
+}
+.btn > input {
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 17px;
+    color: white;
+    background-color: #0092ca;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.sidebar{
+    grid-column: 1;
+    grid-row: 1/6;
+    background-color: #0092ca;
+    display: grid;
+    grid-template-rows: 50px 230px 112px;
+    gap: 20px;
+}
+
+.dashboard .title{
+    gap: 20px;
+    display: flex;
+}
+.title h3{
+     font-size: 25px;
+     position: relative;
+     bottom: 18px;
+     color: white;
+     
+}
+.title svg{
+    margin-top: 3%;
+    margin-left: 5%;
+    color: white;
+}
+.links1 > *{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+}
+.links1 {
+ 
+    font-size: 17px;
+   
+}
+.links1 .lnk1{
+    display: flex;
+    height: 20px;
+
+}
+.lnk1 h5{
+    margin-left: 20px;
+    position: relative;
+    bottom: 25px;
+
+}
+.links1 .lnk2{
+    display: flex;
+    height: 20px;
+
+}
+.lnk2 h5{
+    margin-left: 20px;
+    position: relative;
+    bottom: 25px;
+
+}
+.links1 .lnk3{
+    display: flex;
+    height: 20px;
+
+}
+.lnk3 h5{
+    margin-left: 20px;
+    position: relative;
+    bottom: 25px;
+
+}
+.links1 .lnk4{
+    display: flex;
+    height: 20px;
+
+}
+.lnk4 h5{
+    margin-left: 20px;
+    position: relative;
+    bottom: 25px;
+
+}
+.links2 .lnk1{
+    display: flex;
+    height: 20px;
+  
+    color: white;
+
+}
+.links2 > *{
+    margin-top: 5%;
+    margin-left: 5%;
+    color: white;
+}
+.lnk1 h5{
+    margin-left: 20px;
+    position: relative;
+    bottom: 25px;
+}
+.links2 .lnk1 svg{
+    color: white;
+}
